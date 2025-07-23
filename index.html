@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div class="heading-container">
+    <h1>Image Gallery</h1>
+  </div>
+
+  <div class="filters-container">
+    <div class="filters"></div>
+  </div>
+
+  <div class="gallery"></div>
+  
+  <div class="lightbox">
+    <button class="close" title="Close">&times;</button>
+    <button class="prev" title="Previous">&#10094;</button>
+    <div class="lightbox-content"></div>
+    <button class="next" title="Next">&#10095;</button>
+
+    <div class="lightbox-controls">
+      <input type="range" class="height-slider" min="20" max="150" value="80" title="Adjust Height">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <button class="surprise-btn">Surprise Me!</button>
+</body>
+</html>
